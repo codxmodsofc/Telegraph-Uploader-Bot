@@ -103,7 +103,7 @@ async def start(bot, update):
 async def getmedia(bot, update):
     medianame = DOWNLOAD_LOCATION + str(update.from_user.id)
     try:
-        message = await update.reply_message(
+        message = await update.reply(
             text="`Processing...`",
             quote=True,
             disable_web_page_preview=True
@@ -124,7 +124,7 @@ async def getmedia(bot, update):
             InlineKeyboardButton('More Help', callback_data='help')
             ]]
         )
-        await message.edit_text(
+        await update.edit_text(
             text=text,
             disable_web_page_preview=True,
             reply_markup=reply_markup
@@ -142,7 +142,7 @@ async def getmedia(bot, update):
             ]
         ]
     )
-    await message.edit_text(
+    await update.edit_text(
         text=text,
         disable_web_page_preview=True,
         reply_markup=reply_markup
