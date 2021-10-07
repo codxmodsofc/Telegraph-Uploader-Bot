@@ -57,5 +57,5 @@ python3 main.py
 
 ## Credits
 
-- [CDX BOTS](https://github.com/CDX_Bots)
+- [CDX BOTS](https://t.me/CDX_Bots)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
