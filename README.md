@@ -6,9 +6,9 @@ A simple small media or file to [telegraph](https://telegra.ph) link uploader bo
 
 ```
 Made with Python3
-(C) @FayasNoushad
+(C) @CODXMODSOFC
 Copyright permission under GNU General Public License v3.0
-License -> https://github.com/FayasNoushad/Telegraph-Uploader-Bot/blob/main/LICENSE
+License -> https://github.com/codxmodsofc/Telegraph-Uploader-Bot/blob/main/LICENSE
 ```
 
 ---
@@ -19,7 +19,7 @@ License -> https://github.com/FayasNoushad/Telegraph-Uploader-Bot/blob/main/LICE
   <summary><b>Deploy on Heroku</b></summary>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/Telegraph-Uploader-Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/codxmodsofc/Telegraph-Uploader-Bot">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -30,7 +30,7 @@ License -> https://github.com/FayasNoushad/Telegraph-Uploader-Bot/blob/main/LICE
   <summary><b>Deploy in your vps</b></summary>
 
 ```sh
-git clone https://github.com/FayasNoushad/Telegraph-Uploader-Bot
+git clone https://github.com/codxmodsofc/Telegraph-Uploader-Bot
 cd Telegraph-Uploader-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -57,5 +57,5 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+- [CDX BOTS](https://github.com/CDX_Bots)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
