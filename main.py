@@ -21,20 +21,20 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 START_TEXT = """
 Hello {}, I am an under 5MB media or file to telegra.ph link uploader bot.
 
-Made by @FayasNoushad
+Made by @CDX_Bots
 """
 HELP_TEXT = """
 - Just give me a media under 5MB
 - Then I will download it
 - I will then upload it to the telegra.ph link
 
-Made by @FayasNoushad
+Made by @CDX_Bots
 """
 ABOUT_TEXT = """
 - **Bot :** `Telegraph Uploader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Telegraph-Uploader-Bot)
+- **Creator :** [Edwin Moses](https://telegram.me/EdwinMosesOfficial)
+- **Channel :** [CDX BOTS](https://telegram.me/CDX_Bots)
+- **Source :** [Click here](https://github.com/codxmodsofc/Telegraph-Uploader-Bot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -55,8 +55,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/CDX_Bots'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/CDX_Bots_Support')
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Help', callback_data='help'),
@@ -138,7 +138,7 @@ async def getmedia(bot, update):
                 InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
             ],
             [
-                InlineKeyboardButton(text="Join Updates Channel", url="https://telegram.me/FayasNoushad")
+                InlineKeyboardButton(text="Join Updates Channel", url="https://telegram.me/CDX_Bots")
             ]
         ]
     )
